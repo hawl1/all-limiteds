@@ -5,14 +5,12 @@ import json
 items = {}
 
 def fetch_items(page=1):
-    print(f"Fetching page {page} of items...")
     """Fetch a page of items."""
     url = f"https://polytoria.com/api/store/items?types[]=tool&types[]=face&types[]=shirt&types[]=pants&page={page}&search=&sort=createdAt&order=desc&showOffsale=false&collectiblesOnly=true"
     response = requests.get(url)
     return response
 
 def fetch_owners(item_id, page=1):
-    print(f"Fetching page {page} of owners for item {item_id}...")
     """Fetch a page of owner data for a given item."""
     url = f"https://api.polytoria.com/v1/store/{item_id}/owners?limit=100&page={page}"
     response = requests.get(url)
@@ -21,7 +19,6 @@ def fetch_owners(item_id, page=1):
 def handle_rate_limit(response):
     """Handle rate limit by waiting until the rate limit is lifted."""
     while response.status_code == 429:
-        print("Rate limit exceeded. Waiting for rate limit to be lifted...")
         time.sleep(10)
         response = requests.get(response.url)
     return response
