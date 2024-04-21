@@ -6,7 +6,11 @@ def generate_pie_chart(user_counts, title, filename):
     labels = list(user_counts.keys())
     values = list(user_counts.values())
 
-    plt.figure(figsize=(8, 8))
+    # Determine the figsize based on the number of users
+    num_users = len(labels)
+    figsize = (num_users * 0.5, num_users * 0.5)  # Adjust multiplier for desired size
+
+    plt.figure(figsize=figsize)
     plt.pie(values, labels=labels, autopct='%1.1f%%')
     plt.title(title)
     plt.axis('equal')  # Equal aspect ratio ensures that pie is drawn as a circle.
@@ -15,7 +19,7 @@ def generate_pie_chart(user_counts, title, filename):
 
 def generate_bar_chart(user_counts, title, filename):
     # Create the bar chart
-    plt.figure(figsize=(10, 6))
+    plt.figure(figsize=(num_users * 0.8, 6))
     plt.bar(user_counts.keys(), user_counts.values())
     plt.xlabel('Users')
     plt.ylabel('Number of Owned Items')
@@ -45,10 +49,13 @@ sorted_user_counts = dict(sorted(user_counts.items(), key=lambda item: item[1], 
 top_users = dict(list(sorted_user_counts.items())[:10])
 
 # Generate pie chart for top 10 users
-generate_pie_chart(top_users, "Top 10 Item Ownership Distribution by User", "top_10_item_ownership_distribution.png")
+generate_pie_chart(top_users, "Top 10 Item Ownership Distribution by User", "top_10_item_ownership_distribution.svg")
 
 # Generate bar chart for top 10 users
-generate_bar_chart(top_users, "Top 10 Item Ownership Distribution by User", "top_10_item_ownership_distribution_bar.png")
+generate_bar_chart(top_users, "Top 10 Item Ownership Distribution by User", "top_10_item_ownership_distribution_bar.svg")
 
 # Generate pie chart for all users
-generate_pie_chart(sorted_user_counts, "Item Ownership Distribution by User", "item_ownership_distribution.png")
+generate_pie_chart(sorted_user_counts, "Item Ownership Distribution by User", "item_ownership_distribution.svg")
+
+# Generate bar chart for all users
+generate_bar_chart(sorted_user_counts, "Item Ownership Distribution by User", "item_ownership_distribution_bar.svg")
