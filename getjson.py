@@ -47,10 +47,8 @@ def process_owners(item_id):
         response = handle_rate_limit(response)  # Handle rate limit before processing
         json_response = response.json()
         if not json_response['inventories']:
-            print(f"No owners found for item {item_id}.")
             break
         if json_response['pages'] == page:
-            print(f"Processed all pages for item {item_id}.")
             break
         for inventory in json_response['inventories']:
             username = inventory['user']['username']
