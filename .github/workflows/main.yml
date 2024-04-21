@@ -1,0 +1,39 @@
+name: Do Crimes
+
+on:
+  push:
+    branches:
+      - main
+  schedule:
+      - cron: '0 0 * * *' # This will trigger the workflow every day at midnight UTC
+jobs:
+  save_image:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install packages
+        run: pip install matplotlib requests
+
+      - name: Get data
+        run: python getjson.py
+
+      - name: Visualise and save data
+        run: python main.py
+
+      - name: Commit changes
+        run: |
+          git config --global user.name 'CI'
+          git config --global user.email 'noreply@github.com'
+          git add .
+          git commit -m "Update"
+          git push
+
+      - name: Commit changes
+        run: |
+          git config --global user.name 'Your Name'
+          git config --global user.email 'youremail@example.com'
+          git add .
+          git commit -m "Add image"
+          git push
