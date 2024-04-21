@@ -17,7 +17,7 @@ def generate_pie_chart(user_counts, title, filename):
     plt.savefig(filename)
     plt.show()
 
-def generate_bar_chart(user_counts, title, filename):
+def generate_bar_chart(user_counts, title, filename, num_users):
     # Create the bar chart
     plt.figure(figsize=(num_users * 0.8, 6))
     plt.bar(user_counts.keys(), user_counts.values())
@@ -52,10 +52,10 @@ top_users = dict(list(sorted_user_counts.items())[:10])
 generate_pie_chart(top_users, "Top 10 Item Ownership Distribution by User", "top_10_item_ownership_distribution.svg")
 
 # Generate bar chart for top 10 users
-generate_bar_chart(top_users, "Top 10 Item Ownership Distribution by User", "top_10_item_ownership_distribution_bar.svg")
+generate_bar_chart(top_users, "Top 10 Item Ownership Distribution by User", "top_10_item_ownership_distribution_bar.svg", len(top_users))
 
 # Generate pie chart for all users
 generate_pie_chart(sorted_user_counts, "Item Ownership Distribution by User", "item_ownership_distribution.svg")
 
 # Generate bar chart for all users
-generate_bar_chart(sorted_user_counts, "Item Ownership Distribution by User", "item_ownership_distribution_bar.svg")
+generate_bar_chart(sorted_user_counts, "Item Ownership Distribution by User", "item_ownership_distribution_bar.svg", len(sorted_user_counts))
