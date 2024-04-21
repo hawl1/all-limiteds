@@ -1,11 +1,12 @@
-name: Do Crimes
+name: Image
 
 on:
   push:
     branches:
       - main
   schedule:
-      - cron: '0 0 * * *' # This will trigger the workflow every day at midnight UTC
+    - cron: '0 0 * * *' # This will trigger the workflow every day at midnight UTC
+
 jobs:
   save_image:
     runs-on: ubuntu-latest
@@ -17,7 +18,13 @@ jobs:
         run: pip install matplotlib requests
 
       - name: Get data
-        run: python getjson.py
+        run: python getjson.py &
+
+      - name: Wait for Python script to finish
+        run: |
+          while pgrep -f "python getjson.py" > /dev/null; do
+              sleep 10
+          done
 
       - name: Visualise and save data
         run: python main.py
