@@ -6,7 +6,7 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2024-04-21T20:02:45.690634</dc:date>
+    <dc:date>2024-04-21T20:13:13.344162</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -4394,8 +4394,8 @@ z
     </g>
    </g>
    <g id="text_43">
-    <!-- EggHistorian -->
-    <g transform="translate(5209.708848 1806.995644) scale(0.1 -0.1)">
+    <!-- Heh -->
+    <g transform="translate(5253.615098 1806.995644) scale(0.1 -0.1)">
      <defs>
       <path id="DejaVuSans-48" d="M 628 4666 
 L 1259 4666 
@@ -4413,18 +4413,9 @@ L 628 4666
 z
 " transform="scale(0.015625)"/>
      </defs>
-     <use xlink:href="#DejaVuSans-45"/>
-     <use xlink:href="#DejaVuSans-67" x="63.183594"/>
-     <use xlink:href="#DejaVuSans-67" x="126.660156"/>
-     <use xlink:href="#DejaVuSans-48" x="190.136719"/>
-     <use xlink:href="#DejaVuSans-69" x="265.332031"/>
-     <use xlink:href="#DejaVuSans-73" x="293.115234"/>
-     <use xlink:href="#DejaVuSans-74" x="345.214844"/>
-     <use xlink:href="#DejaVuSans-6f" x="384.423828"/>
-     <use xlink:href="#DejaVuSans-72" x="445.605469"/>
-     <use xlink:href="#DejaVuSans-69" x="486.71875"/>
-     <use xlink:href="#DejaVuSans-61" x="514.501953"/>
-     <use xlink:href="#DejaVuSans-6e" x="575.78125"/>
+     <use xlink:href="#DejaVuSans-48"/>
+     <use xlink:href="#DejaVuSans-65" x="75.195312"/>
+     <use xlink:href="#DejaVuSans-68" x="136.71875"/>
     </g>
    </g>
    <g id="text_44">
