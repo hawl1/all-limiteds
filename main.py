@@ -8,26 +8,26 @@ def generate_pie_chart(user_counts, title, filename):
 
     # Determine the figsize based on the number of users
     num_users = len(labels)
-    figsize = (num_users * 0.5, num_users * 0.5)  # Adjust multiplier for desired size
+    figsize = (num_users * 0.3, num_users * 0.3)  # Adjust multiplier for desired size
 
     plt.figure(figsize=figsize)
     plt.pie(values, labels=labels, autopct='%1.1f%%')
     plt.title(title)
     plt.axis('equal')  # Equal aspect ratio ensures that pie is drawn as a circle.
-    plt.savefig(filename)
-    plt.show()
+    plt.savefig(filename)  # Save the plot directly to a file
+    plt.close()  # Close the plot to release resources
 
 def generate_bar_chart(user_counts, title, filename, num_users):
     # Create the bar chart
-    plt.figure(figsize=(num_users * 0.8, 6))
+    plt.figure(figsize=(num_users * 0.4, 4))
     plt.bar(user_counts.keys(), user_counts.values())
     plt.xlabel('Users')
     plt.ylabel('Number of Owned Items')
     plt.title(title)
     plt.xticks(rotation=45, ha='right')
     plt.tight_layout()
-    plt.savefig(filename)
-    plt.show()
+    plt.savefig(filename)  # Save the plot directly to a file
+    plt.close()  # Close the plot to release resources
 
 # Read data from JSON file
 with open("owners.json", "r") as file:

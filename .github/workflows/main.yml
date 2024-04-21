@@ -18,13 +18,7 @@ jobs:
         run: pip install matplotlib requests
 
       - name: Get data
-        run: python getjson.py &
-
-      - name: Wait for Python script to finish
-        run: |
-          while pgrep -f "python getjson.py" > /dev/null; do
-              sleep 10
-          done
+        run: python getjson.py
 
       - name: Visualise and save data
         run: python main.py
