@@ -6,7 +6,7 @@ items = {}
 
 def fetch_items(page=1):
     """Fetch a page of items."""
-    url = f"https://polytoria.com/api/store/items?types[]=tool&types[]=face&types[]=shirt&types[]=pants&page={page}&search=&sort=createdAt&order=desc&showOffsale=false&collectiblesOnly=true"
+    url = f"https://polytoria.com/api/store/items?types[]=tool&types[]=face&types[]=hat&page={page}&search=&sort=createdAt&order=desc&showOffsale=false&collectiblesOnly=true"
     response = requests.get(url)
     return response
 
