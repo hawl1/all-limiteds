@@ -48,8 +48,6 @@ def process_owners(item_id):
         json_response = response.json()
         if not json_response['inventories']:
             break
-        if json_response['pages'] == page:
-            break
         for inventory in json_response['inventories']:
             username = inventory['user']['username']
             # Find owner in the list or add new
@@ -61,6 +59,8 @@ def process_owners(item_id):
                     break
             if not found:
                 items[item_id]['owners'].append({'name': username, 'count': 1})
+        if json_response['pages'] == page:
+            break
         page += 1
         time.sleep(0.6)
 
