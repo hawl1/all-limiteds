@@ -14,9 +14,6 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Install packages
-        run: pip install plotly kaleido
-
       - name: Get data
         run: python getjson.py
 
