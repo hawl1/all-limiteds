@@ -15,7 +15,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Install packages
-        run: pip install plotly
+        run: pip install plotly kaleido
 
       - name: Get data
         run: python getjson.py
