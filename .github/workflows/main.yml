@@ -15,7 +15,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Install packages
-        run: pip install matplotlib requests
+        run: pip install plotly
 
       - name: Get data
         run: python getjson.py
