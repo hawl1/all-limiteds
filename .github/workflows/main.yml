@@ -3,7 +3,7 @@ name: Image
 on:
   push:
     branches:
-      - main
+      - '*'
   schedule:
     - cron: '0 0 * * *' # This will trigger the workflow every day at midnight UTC
 
