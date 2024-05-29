@@ -28,7 +28,12 @@ def process_all_items():
     page = 1
     while True:
         response = fetch_items(page)
-        json_response = response.json()
+        try:
+            json_response = response.json()
+        except json.JSONDecodeError:
+            print(f"Error parsing JSON for page {page}. Waiting...")
+            time.sleep(10)  # Wait for 10 seconds and try again
+            continue  # Retry fetching the page
         for item in json_response['data']:
             item_id = item['id']
             item_name = item['name']
@@ -45,7 +50,12 @@ def process_owners(item_id):
     while True:
         response = fetch_owners(item_id, page)
         response = handle_rate_limit(response)  # Handle rate limit before processing
-        json_response = response.json()
+        try:
+            json_response = response.json()
+        except json.JSONDecodeError:
+            print(f"Error parsing JSON for item {item_id}, page {page}. Waiting...")
+            time.sleep(10)  # Wait for 10 seconds and try again
+            continue  # Retry fetching the page
         if not json_response['inventories']:
             break
         for inventory in json_response['inventories']:
