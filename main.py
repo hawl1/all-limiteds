@@ -59,30 +59,3 @@ generate_pie_chart(sorted_user_counts, "Item Ownership Distribution by User", "i
 
 # Generate a bar chart for all users
 generate_bar_chart(sorted_user_counts, "Item Ownership Distribution by User", "item_ownership_distribution_bar.svg", len(sorted_user_counts))
-
-# Aggregate counts for each username using a generator
-def aggregate_user_counts(data):
-    user_counts = {}
-    for item in data:
-        owners = item.get("owners", [])
-        for owner in owners:
-            username = owner["name"]
-            count = owner["count"]
-            user_counts[username] = user_counts.get(username, 0) + count
-    return user_counts
-
-# Process data using generators
-user_counts = aggregate_user_counts(read_json_data("owners.json"))
-
-# Generate pie chart for top 10 users
-top_users = dict(sorted(user_counts.items(), key=lambda item: item[1], reverse=True)[:10])
-generate_pie_chart(top_users, "Top 10 Item Ownership Distribution by User", "top_10_item_ownership_distribution.svg")
-
-# Generate bar chart for top 10 users
-generate_bar_chart(top_users, "Top 10 Item Ownership Distribution by User", "top_10_item_ownership_distribution_bar.svg", len(top_users))
-
-# Generate pie chart for all users
-generate_pie_chart(user_counts, "Item Ownership Distribution by User", "item_ownership_distribution.svg")
-
-# Generate bar chart for all users
-generate_bar_chart(user_counts, "Item Ownership Distribution by User", "item_ownership_distribution_bar.svg", len(user_counts))
