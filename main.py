@@ -53,9 +53,3 @@ generate_pie_chart(top_users, "Top 10 Item Ownership Distribution by User", "top
 
 # Generate a bar chart for the top 10 users
 generate_bar_chart(top_users, "Top 10 Item Ownership Distribution by User", "top_10_item_ownership_distribution_bar.svg", len(top_users))
-
-# Generate a pie chart for all users
-generate_pie_chart(sorted_user_counts, "Item Ownership Distribution by User", "item_ownership_distribution.svg")
-
-# Generate a bar chart for all users
-generate_bar_chart(sorted_user_counts, "Item Ownership Distribution by User", "item_ownership_distribution_bar.svg", len(sorted_user_counts))
