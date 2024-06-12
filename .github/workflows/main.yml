@@ -22,7 +22,7 @@ jobs:
           pip install matplotlib requests
       
       - name: Install ProtonVPN
-        run: sudo pip install protonvpn
+        run: sudo pip install protonvpn-cli
 
       - name: Run ProtonVPN
         env:
