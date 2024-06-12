@@ -8,12 +8,14 @@ Credits to https://github.com/GoldenretriverYT for the get json thing
 
 Top 10 Item Ownership Distribution
 
+**Fun fact:** There are over **12811** limited copies!
+
 <p align="center">
-  <img src="top_10_item_ownership_distribution.svg" width="400" /> 
+  <img src="top_10_item_ownership_distribution.svg" /> 
 </p>
 
 Top 10 Item Ownership Distribution and Full Item Ownership Distribution (As Bar)
 
 <p align="center">
-  <img src="top_10_item_ownership_distribution_bar.svg" width="400" /> 
+  <img src="top_10_item_ownership_distribution_bar.svg" /> 
 </p>

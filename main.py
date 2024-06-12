@@ -34,8 +34,12 @@ def aggregate_others(user_counts, top_count):
         top_users["Others"] = other_count
         return top_users
 
+global total_amount_of_lims
+total_amount_of_lims = 0
+
 def process_data(file_path):
     user_counts = {}
+    total_amount_of_lims = 0 
     with open(file_path, "r") as file:
         data = json.load(file)
         for item in data.values():
@@ -44,10 +48,20 @@ def process_data(file_path):
                 username = owner["name"]
                 count = owner["count"]
                 user_counts[username] = user_counts.get(username, 0) + count
-    return user_counts
+                total_amount_of_lims += count
+    return user_counts, total_amount_of_lims
 
-# Process the data
-user_counts = process_data("owners.json")
+user_counts, total_amount_of_lims = process_data("owners.json")
+
+with open("README.md", "r") as readme_file:
+    readme_lines = readme_file.readlines()
+
+for i, line in enumerate(readme_lines):
+    if "Fun fact: There are over " in line:
+        readme_lines[i] = f"**Fun fact:** There are over **{total_amount_of_lims}** limited copies!\n"
+
+with open("README.md", "w") as readme_file:
+    readme_file.writelines(readme_lines)
 
 # Sort users by the number of items in descending order
 sorted_user_counts = dict(sorted(user_counts.items(), key=lambda item: item[1], reverse=True))
