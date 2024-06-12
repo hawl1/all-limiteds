@@ -14,29 +14,12 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Install packages (apt)
-        run: sudo apt install -y openvpn dialog python3-pip python3-setuptools
-
-      - name: Install packages (pip)
+      - name: Install packages
         run:  |
           pip install matplotlib requests
-      
-      - name: Install ProtonVPN
-        run: sudo pip install protonvpn-cli
-
-      - name: Run ProtonVPN
-        env:
-          PROTONVPN_USERNAME: ${{ secrets.PROTONVPN_USERNAME }}
-          PROTONVPN_PASSWORD: ${{ secrets.PROTONVPN_PASSWORD }}
-        run: |
-          echo -e "${{ secrets.VPN_USERNAME }}\n${{ secrets.VPN_PASSWORD }}\n3\nudp\ny" | sudo protonvpn init
-          sudo protonvpn c -f &
 
       - name: Get data
         run: python getjson.py
-
-      - name: Disconnect from ProtonVPN
-        run: sudo protonvpn d
 
       - name: Visualise and save data
         run: python main.py
