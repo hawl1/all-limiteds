@@ -25,14 +25,14 @@ jobs:
           PROTONVPN_USERNAME: ${{ secrets.PROTONVPN_USERNAME }}
           PROTONVPN_PASSWORD: ${{ secrets.PROTONVPN_PASSWORD }}
         run: |
-          echo -e "${{ secrets.VPN_USERNAME }}\n${{ secrets.VPN_PASSWORD }}\n3\nudp\ny" | sudo protonvpn init
-          sudo protonvpn c -f &
+          echo -e "${{ secrets.VPN_USERNAME }}\n${{ secrets.VPN_PASSWORD }}\n3\nudp\ny" | protonvpn init
+          protonvpn c -f &
 
       - name: Get data
         run: python getjson.py
 
       - name: Disconnect from ProtonVPN
-        run: sudo protonvpn d
+        run: protonvpn d
 
       - name: Visualise and save data
         run: python main.py
