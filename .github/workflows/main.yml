@@ -14,11 +14,15 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Install packages
+      - name: Install packages (apt)
         run: sudo apt install -y openvpn dialog python3-pip python3-setuptools
 
-      - name: Install packages
-        run: pip install matplotlib requests protonvpn-cli
+      - name: Install packages (pip)
+        run:  |
+          pip install matplotlib requests
+      
+      - name: Install ProtonVPN
+        run: sudo pip install protonvpn
 
       - name: Run ProtonVPN
         env:
