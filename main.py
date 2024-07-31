@@ -57,7 +57,7 @@ with open("README.md", "r") as readme_file:
     readme_lines = readme_file.readlines()
 
 for i, line in enumerate(readme_lines):
-    if "Fun fact: There are over " in line:
+    if "**Fun fact:** There are over " in line:
         readme_lines[i] = f"**Fun fact:** There are over **{total_amount_of_lims}** limited copies!\n"
 
 with open("README.md", "w") as readme_file:
