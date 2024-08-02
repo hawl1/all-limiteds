@@ -8,7 +8,7 @@ Credits to https://github.com/GoldenretriverYT for the get json thing
 
 Top 10 Item Ownership Distribution
 
-**Fun fact:** There are over **14856** limited copies!
+**Fun fact:** There are over **15009** limited copies!
 
 <p align="center">
   <img src="top_10_item_ownership_distribution.svg" /> 
