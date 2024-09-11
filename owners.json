@@ -1,4 +1,357 @@
 {
+    "39726": {
+        "name": "The Endbringer",
+        "owners": [
+            {
+                "name": "Everlast",
+                "count": 1
+            },
+            {
+                "name": "Gambler",
+                "count": 1
+            },
+            {
+                "name": "Ryo",
+                "count": 8
+            },
+            {
+                "name": "VoV",
+                "count": 1
+            },
+            {
+                "name": "Emir",
+                "count": 1
+            },
+            {
+                "name": "Flowerboy",
+                "count": 1
+            },
+            {
+                "name": "facer",
+                "count": 1
+            },
+            {
+                "name": "Moonbloom",
+                "count": 1
+            },
+            {
+                "name": "GR33N",
+                "count": 1
+            },
+            {
+                "name": "Robbie6304",
+                "count": 1
+            },
+            {
+                "name": "JohnPolytoria",
+                "count": 1
+            },
+            {
+                "name": "tybg",
+                "count": 1
+            },
+            {
+                "name": "polyflip",
+                "count": 1
+            },
+            {
+                "name": "turmoil",
+                "count": 1
+            },
+            {
+                "name": "olo",
+                "count": 1
+            },
+            {
+                "name": "PixelDeEcran",
+                "count": 1
+            },
+            {
+                "name": "Aristotle",
+                "count": 1
+            },
+            {
+                "name": "Tsuwuki",
+                "count": 1
+            },
+            {
+                "name": "Star1",
+                "count": 1
+            },
+            {
+                "name": "HACKEDBYASTRONAUT",
+                "count": 1
+            },
+            {
+                "name": "vue",
+                "count": 1
+            },
+            {
+                "name": "Decade",
+                "count": 1
+            },
+            {
+                "name": "Wistfulzachman",
+                "count": 1
+            },
+            {
+                "name": "Mictlantecuhtli",
+                "count": 1
+            },
+            {
+                "name": "CyA",
+                "count": 1
+            },
+            {
+                "name": "Valden",
+                "count": 1
+            },
+            {
+                "name": "Anymore",
+                "count": 1
+            },
+            {
+                "name": "KonataIzumi",
+                "count": 1
+            },
+            {
+                "name": "Polytorian",
+                "count": 1
+            },
+            {
+                "name": "ord",
+                "count": 1
+            },
+            {
+                "name": "willemsteller",
+                "count": 1
+            },
+            {
+                "name": "Propane",
+                "count": 1
+            },
+            {
+                "name": "Index",
+                "count": 1
+            },
+            {
+                "name": "scorpiopilot",
+                "count": 1
+            },
+            {
+                "name": "Snowdude",
+                "count": 1
+            },
+            {
+                "name": "Magnate",
+                "count": 1
+            },
+            {
+                "name": "Input",
+                "count": 1
+            },
+            {
+                "name": "Teapotman52",
+                "count": 1
+            },
+            {
+                "name": "qochbtudgkbyaozhekhp",
+                "count": 1
+            },
+            {
+                "name": "Tesco",
+                "count": 1
+            },
+            {
+                "name": "Tutz",
+                "count": 1
+            },
+            {
+                "name": "Jaye",
+                "count": 1
+            },
+            {
+                "name": "Implorium",
+                "count": 1
+            },
+            {
+                "name": "dud",
+                "count": 1
+            },
+            {
+                "name": "mixer2101",
+                "count": 1
+            },
+            {
+                "name": "DIDARIYO",
+                "count": 1
+            },
+            {
+                "name": "YourAverageBub",
+                "count": 1
+            },
+            {
+                "name": "Last",
+                "count": 1
+            },
+            {
+                "name": "Chrysanthemum",
+                "count": 1
+            },
+            {
+                "name": "Hoppers",
+                "count": 1
+            },
+            {
+                "name": "polarlabs",
+                "count": 1
+            },
+            {
+                "name": "Fume",
+                "count": 1
+            },
+            {
+                "name": "765",
+                "count": 1
+            },
+            {
+                "name": "JamesC",
+                "count": 1
+            },
+            {
+                "name": "Periastron",
+                "count": 1
+            },
+            {
+                "name": "Lancia",
+                "count": 1
+            },
+            {
+                "name": "SnekWasTaken",
+                "count": 1
+            },
+            {
+                "name": "TUT",
+                "count": 1
+            },
+            {
+                "name": "drowsy",
+                "count": 1
+            },
+            {
+                "name": "Oldestreyms",
+                "count": 1
+            },
+            {
+                "name": "UltraMob",
+                "count": 1
+            },
+            {
+                "name": "zach121898",
+                "count": 1
+            },
+            {
+                "name": "Greenlegocats",
+                "count": 1
+            },
+            {
+                "name": "Qatikus",
+                "count": 1
+            },
+            {
+                "name": "Hungry",
+                "count": 1
+            },
+            {
+                "name": "Sogga",
+                "count": 1
+            },
+            {
+                "name": "r10az",
+                "count": 1
+            },
+            {
+                "name": "coldwars",
+                "count": 1
+            },
+            {
+                "name": "Erik",
+                "count": 1
+            },
+            {
+                "name": "baker",
+                "count": 1
+            },
+            {
+                "name": "Drake",
+                "count": 1
+            },
+            {
+                "name": "Sk3l",
+                "count": 1
+            },
+            {
+                "name": "Bugbear",
+                "count": 1
+            },
+            {
+                "name": "bandito burrito",
+                "count": 1
+            },
+            {
+                "name": "CharlieTheSteak",
+                "count": 1
+            },
+            {
+                "name": "899",
+                "count": 1
+            },
+            {
+                "name": "Brasil",
+                "count": 1
+            },
+            {
+                "name": "CustodioMiguel",
+                "count": 1
+            },
+            {
+                "name": "Kepler",
+                "count": 1
+            },
+            {
+                "name": "idotman",
+                "count": 1
+            },
+            {
+                "name": "lenneth",
+                "count": 1
+            },
+            {
+                "name": "DarkP48",
+                "count": 1
+            },
+            {
+                "name": "Nick",
+                "count": 1
+            },
+            {
+                "name": "Cop",
+                "count": 1
+            },
+            {
+                "name": "Watermelon",
+                "count": 1
+            },
+            {
+                "name": "whiteboy",
+                "count": 1
+            },
+            {
+                "name": "ranger65",
+                "count": 1
+            }
+        ]
+    },
     "39587": {
         "name": "Ram Horns",
         "owners": [
@@ -936,7 +1289,7 @@
                 "count": 1
             },
             {
-                "name": "IndexIsOverParty",
+                "name": "Index",
                 "count": 1
             },
             {
@@ -1549,7 +1902,7 @@
                 "count": 1
             },
             {
-                "name": "Gambling",
+                "name": "HACKEDBYASTRONAUT",
                 "count": 1
             },
             {
@@ -1685,7 +2038,7 @@
                 "count": 1
             },
             {
-                "name": "IndexIsOverParty",
+                "name": "Index",
                 "count": 1
             },
             {
@@ -2322,7 +2675,7 @@
                 "count": 1
             },
             {
-                "name": "IndexIsOverParty",
+                "name": "Index",
                 "count": 1
             },
             {
@@ -3020,7 +3373,7 @@
             },
             {
                 "name": "Ryo",
-                "count": 4
+                "count": 8
             },
             {
                 "name": "TUT",
@@ -3095,7 +3448,7 @@
                 "count": 1
             },
             {
-                "name": "IndexIsOverParty",
+                "name": "Index",
                 "count": 1
             },
             {
@@ -3208,7 +3561,7 @@
             },
             {
                 "name": "conetopia",
-                "count": 10
+                "count": 11
             },
             {
                 "name": "Borat",
@@ -3359,10 +3712,6 @@
                 "count": 1
             },
             {
-                "name": "Breskar",
-                "count": 1
-            },
-            {
                 "name": "JamesC",
                 "count": 1
             },
@@ -3384,10 +3733,6 @@
             },
             {
                 "name": "kok",
-                "count": 1
-            },
-            {
-                "name": "Anymore",
                 "count": 1
             },
             {
@@ -3539,10 +3884,6 @@
                 "count": 1
             },
             {
-                "name": "coldwars",
-                "count": 1
-            },
-            {
                 "name": "Nick",
                 "count": 1
             },
@@ -3591,10 +3932,6 @@
                 "count": 1
             },
             {
-                "name": "qochbtudgkbyaozhekhp",
-                "count": 1
-            },
-            {
                 "name": "TeIamons",
                 "count": 1
             },
@@ -3612,10 +3949,6 @@
             },
             {
                 "name": "astronaut",
-                "count": 1
-            },
-            {
-                "name": "camerawomen",
                 "count": 1
             },
             {
@@ -3720,7 +4053,7 @@
                 "count": 2
             },
             {
-                "name": "IndexIsOverParty",
+                "name": "Index",
                 "count": 1
             },
             {
@@ -3840,7 +4173,7 @@
                 "count": 1
             },
             {
-                "name": "Gambling",
+                "name": "HACKEDBYASTRONAUT",
                 "count": 1
             },
             {
@@ -4297,7 +4630,7 @@
                 "count": 1
             },
             {
-                "name": "IndexIsOverParty",
+                "name": "Index",
                 "count": 1
             },
             {
@@ -5434,7 +5767,7 @@
                 "count": 1
             },
             {
-                "name": "IndexIsOverParty",
+                "name": "Index",
                 "count": 1
             },
             {
@@ -5967,7 +6300,7 @@
                 "count": 2
             },
             {
-                "name": "conetopia",
+                "name": "camerawomen",
                 "count": 1
             },
             {
@@ -6095,7 +6428,7 @@
                 "count": 1
             },
             {
-                "name": "camerawomen",
+                "name": "conetopia",
                 "count": 1
             },
             {
@@ -6111,7 +6444,7 @@
                 "count": 1
             },
             {
-                "name": "IndexIsOverParty",
+                "name": "Index",
                 "count": 1
             },
             {
@@ -6328,7 +6661,7 @@
                 "count": 1
             },
             {
-                "name": "IndexIsOverParty",
+                "name": "Index",
                 "count": 1
             },
             {
@@ -7605,7 +7938,7 @@
                 "count": 1
             },
             {
-                "name": "IndexIsOverParty",
+                "name": "Index",
                 "count": 1
             },
             {
@@ -8030,7 +8363,7 @@
                 "count": 1
             },
             {
-                "name": "IndexIsOverParty",
+                "name": "Index",
                 "count": 1
             },
             {
@@ -9304,7 +9637,7 @@
                 "count": 1
             },
             {
-                "name": "IndexIsOverParty",
+                "name": "Index",
                 "count": 1
             },
             {
@@ -10597,7 +10930,7 @@
                 "count": 1
             },
             {
-                "name": "IndexIsOverParty",
+                "name": "Index",
                 "count": 1
             },
             {
@@ -10725,7 +11058,7 @@
                 "count": 1
             },
             {
-                "name": "Gambling",
+                "name": "HACKEDBYASTRONAUT",
                 "count": 1
             },
             {
@@ -11078,7 +11411,7 @@
                 "count": 1
             },
             {
-                "name": "IndexIsOverParty",
+                "name": "Index",
                 "count": 1
             },
             {
@@ -12583,7 +12916,7 @@
                 "count": 4
             },
             {
-                "name": "IndexIsOverParty",
+                "name": "Index",
                 "count": 1
             },
             {
@@ -12952,7 +13285,7 @@
                 "count": 1
             },
             {
-                "name": "DarkP48",
+                "name": "Greenlegocats",
                 "count": 1
             },
             {
@@ -13040,7 +13373,7 @@
                 "count": 3
             },
             {
-                "name": "IndexIsOverParty",
+                "name": "Index",
                 "count": 1
             },
             {
@@ -13457,7 +13790,7 @@
                 "count": 1
             },
             {
-                "name": "IndexIsOverParty",
+                "name": "Index",
                 "count": 1
             },
             {
@@ -13645,7 +13978,7 @@
                 "count": 1
             },
             {
-                "name": "Gambling",
+                "name": "HACKEDBYASTRONAUT",
                 "count": 1
             },
             {
@@ -14262,7 +14595,7 @@
                 "count": 1
             },
             {
-                "name": "IndexIsOverParty",
+                "name": "Index",
                 "count": 1
             },
             {
@@ -14579,7 +14912,7 @@
                 "count": 1
             },
             {
-                "name": "IndexIsOverParty",
+                "name": "Index",
                 "count": 1
             },
             {
@@ -14791,7 +15124,7 @@
                 "count": 1
             },
             {
-                "name": "Gambling",
+                "name": "HACKEDBYASTRONAUT",
                 "count": 1
             },
             {
@@ -15088,7 +15421,7 @@
                 "count": 3
             },
             {
-                "name": "IndexIsOverParty",
+                "name": "Index",
                 "count": 1
             },
             {
@@ -15512,7 +15845,7 @@
                 "count": 1
             },
             {
-                "name": "Gambling",
+                "name": "HACKEDBYASTRONAUT",
                 "count": 1
             },
             {
@@ -15853,7 +16186,7 @@
                 "count": 1
             },
             {
-                "name": "IndexIsOverParty",
+                "name": "Index",
                 "count": 1
             },
             {
@@ -16239,7 +16572,7 @@
                 "count": 4
             },
             {
-                "name": "IndexIsOverParty",
+                "name": "Index",
                 "count": 1
             },
             {
@@ -16352,7 +16685,7 @@
                 "count": 1
             },
             {
-                "name": "IndexIsOverParty",
+                "name": "Index",
                 "count": 1
             },
             {
@@ -16605,7 +16938,7 @@
                 "count": 1
             },
             {
-                "name": "Gambling",
+                "name": "HACKEDBYASTRONAUT",
                 "count": 1
             },
             {
@@ -16946,7 +17279,7 @@
                 "count": 1
             },
             {
-                "name": "DarkP48",
+                "name": "with",
                 "count": 1
             },
             {
@@ -17050,7 +17383,7 @@
                 "count": 1
             },
             {
-                "name": "Gambling",
+                "name": "HACKEDBYASTRONAUT",
                 "count": 1
             },
             {
@@ -17102,7 +17435,7 @@
                 "count": 1
             },
             {
-                "name": "IndexIsOverParty",
+                "name": "Index",
                 "count": 1
             },
             {
@@ -17215,7 +17548,7 @@
                 "count": 2
             },
             {
-                "name": "Gambling",
+                "name": "HACKEDBYASTRONAUT",
                 "count": 1
             },
             {
@@ -17348,7 +17681,7 @@
                 "count": 1
             },
             {
-                "name": "Gambling",
+                "name": "HACKEDBYASTRONAUT",
                 "count": 1
             },
             {
@@ -17476,7 +17809,7 @@
                 "count": 1
             },
             {
-                "name": "IndexIsOverParty",
+                "name": "Index",
                 "count": 1
             },
             {
@@ -17901,7 +18234,7 @@
                 "count": 2
             },
             {
-                "name": "Gambling",
+                "name": "HACKEDBYASTRONAUT",
                 "count": 1
             },
             {
@@ -18029,7 +18362,7 @@
                 "count": 1
             },
             {
-                "name": "DarkP48",
+                "name": "Greenlegocats",
                 "count": 1
             },
             {
@@ -18470,7 +18803,7 @@
                 "count": 1
             },
             {
-                "name": "Gambling",
+                "name": "HACKEDBYASTRONAUT",
                 "count": 1
             },
             {
@@ -18667,7 +19000,7 @@
                 "count": 1
             },
             {
-                "name": "Gambling",
+                "name": "HACKEDBYASTRONAUT",
                 "count": 1
             },
             {
@@ -18808,11 +19141,11 @@
                 "count": 3
             },
             {
-                "name": "Gambling",
+                "name": "HACKEDBYASTRONAUT",
                 "count": 1
             },
             {
-                "name": "DarkP48",
+                "name": "Efilist",
                 "count": 1
             },
             {
@@ -18952,7 +19285,7 @@
                 "count": 1
             },
             {
-                "name": "IndexIsOverParty",
+                "name": "Index",
                 "count": 1
             },
             {
@@ -19217,7 +19550,7 @@
                 "count": 1
             },
             {
-                "name": "Gambling",
+                "name": "HACKEDBYASTRONAUT",
                 "count": 1
             },
             {
@@ -19733,7 +20066,7 @@
                 "count": 1
             },
             {
-                "name": "IndexIsOverParty",
+                "name": "Index",
                 "count": 1
             },
             {
@@ -19846,7 +20179,7 @@
         "name": "Operator: Elf Force",
         "owners": [
             {
-                "name": "Gambling",
+                "name": "HACKEDBYASTRONAUT",
                 "count": 1
             },
             {
@@ -20371,7 +20704,7 @@
                 "count": 1
             },
             {
-                "name": "Gambling",
+                "name": "HACKEDBYASTRONAUT",
                 "count": 1
             },
             {
@@ -21108,7 +21441,7 @@
                 "count": 1
             },
             {
-                "name": "IndexIsOverParty",
+                "name": "Index",
                 "count": 1
             },
             {
@@ -21300,7 +21633,7 @@
                 "count": 2
             },
             {
-                "name": "Gambling",
+                "name": "HACKEDBYASTRONAUT",
                 "count": 1
             },
             {
@@ -21678,7 +22011,7 @@
                 "count": 2
             },
             {
-                "name": "Gambling",
+                "name": "HACKEDBYASTRONAUT",
                 "count": 1
             },
             {
@@ -22331,7 +22664,7 @@
                 "count": 1
             },
             {
-                "name": "Gambling",
+                "name": "HACKEDBYASTRONAUT",
                 "count": 1
             },
             {
@@ -22391,7 +22724,7 @@
                 "count": 1
             },
             {
-                "name": "IndexIsOverParty",
+                "name": "Index",
                 "count": 1
             },
             {
@@ -22536,7 +22869,7 @@
                 "count": 1
             },
             {
-                "name": "IndexIsOverParty",
+                "name": "Index",
                 "count": 1
             },
             {
@@ -22544,7 +22877,7 @@
                 "count": 1
             },
             {
-                "name": "Gambling",
+                "name": "HACKEDBYASTRONAUT",
                 "count": 1
             },
             {
@@ -22861,7 +23194,7 @@
                 "count": 1
             },
             {
-                "name": "Gambling",
+                "name": "HACKEDBYASTRONAUT",
                 "count": 1
             },
             {
@@ -23002,7 +23335,7 @@
                 "count": 1
             },
             {
-                "name": "Gambling",
+                "name": "HACKEDBYASTRONAUT",
                 "count": 1
             },
             {
@@ -23671,7 +24004,7 @@
                 "count": 1
             },
             {
-                "name": "Gambling",
+                "name": "HACKEDBYASTRONAUT",
                 "count": 1
             },
             {
@@ -23844,7 +24177,7 @@
                 "count": 1
             },
             {
-                "name": "Gambling",
+                "name": "HACKEDBYASTRONAUT",
                 "count": 1
             },
             {
@@ -24196,7 +24529,7 @@
                 "count": 1
             },
             {
-                "name": "IndexIsOverParty",
+                "name": "Index",
                 "count": 1
             },
             {
@@ -24810,7 +25143,7 @@
                 "count": 1
             },
             {
-                "name": "Gambling",
+                "name": "HACKEDBYASTRONAUT",
                 "count": 1
             },
             {
@@ -35935,7 +36268,7 @@
                 "count": 1
             },
             {
-                "name": "IndexIsOverParty",
+                "name": "Index",
                 "count": 1
             },
             {
@@ -49635,7 +49968,7 @@
                 "count": 1
             },
             {
-                "name": "DarkP48",
+                "name": "with",
                 "count": 1
             },
             {
@@ -49811,7 +50144,7 @@
                 "count": 1
             },
             {
-                "name": "IndexIsOverParty",
+                "name": "Index",
                 "count": 1
             },
             {
@@ -50203,7 +50536,7 @@
                 "count": 1
             },
             {
-                "name": "Gambling",
+                "name": "HACKEDBYASTRONAUT",
                 "count": 1
             },
             {
@@ -50356,7 +50689,7 @@
                 "count": 1
             },
             {
-                "name": "IndexIsOverParty",
+                "name": "Index",
                 "count": 1
             },
             {
@@ -50878,7 +51211,7 @@
                 "count": 1
             },
             {
-                "name": "Gambling",
+                "name": "HACKEDBYASTRONAUT",
                 "count": 1
             },
             {
@@ -51326,7 +51659,7 @@
                 "count": 1
             },
             {
-                "name": "IndexIsOverParty",
+                "name": "Index",
                 "count": 1
             },
             {
@@ -51487,7 +51820,7 @@
                 "count": 1
             },
             {
-                "name": "Gambling",
+                "name": "HACKEDBYASTRONAUT",
                 "count": 1
             },
             {
@@ -52060,7 +52393,7 @@
                 "count": 1
             },
             {
-                "name": "Gambling",
+                "name": "HACKEDBYASTRONAUT",
                 "count": 1
             },
             {
@@ -52160,7 +52493,7 @@
                 "count": 1
             },
             {
-                "name": "IndexIsOverParty",
+                "name": "Index",
                 "count": 1
             },
             {
@@ -52438,7 +52771,7 @@
                 "count": 1
             },
             {
-                "name": "Gambling",
+                "name": "HACKEDBYASTRONAUT",
                 "count": 1
             },
             {
@@ -52939,7 +53272,7 @@
                 "count": 1
             },
             {
-                "name": "IndexIsOverParty",
+                "name": "Index",
                 "count": 1
             },
             {
