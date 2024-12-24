@@ -31,20 +31,7 @@ jobs:
           git clone https://github.com/yoori/flare-bypasser
           cd flare-bypasser
           docker-compose up -d
-
-          MAX_RETRIES=10
-          RETRY_INTERVAL=10
-          
-          for i in $(seq 1 $MAX_RETRIES); do
-            nc -zv localhost 20080 && echo "Port 20080 is open!" && break
-            echo "Waiting for port 8080 to be open... ($i/$MAX_RETRIES)"
-            sleep $RETRY_INTERVAL
-          done
-          
-          if ! nc -zv localhost 20080; then
-            echo "Port 20080 is not open after $MAX_RETRIES attempts."
-            exit 1
-          fi
+          sleep 20 # oh nawwwwwww
           cd ..
       
       - name: Get data
