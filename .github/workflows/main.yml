@@ -14,12 +14,33 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Install packages
+      - name: Install Python packages
         run:  |
           pip install matplotlib requests
 
+      - name: Install Docker using Docker's official script
+        run: |
+          curl -fsSL https://get.docker.com -o get-docker.sh
+          sudo sh get-docker.sh
+        continue-on-error: false
+      
+      - name: Install Docker Compose
+        run: |
+            sudo curl -L "https://github.com/docker/compose/releases/download/v2.3.3/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+            sudo chmod +x /usr/local/bin/docker-compose
+            docker-compose --version
+        continue-on-error: false
+      
+      # "cloudflare is my number one opp" -willemsteller
+      - name: Clone & run flare-bypasser
+        run: |
+          git clone https://github.com/yoori/flare-bypasser
+          cd flare-bypasser
+          docker-compose up -d
+          cd ..
+      
       - name: Get data
-        run: python getjson.py
+        run: python getjson_cfbypass.py
 
       - name: Visualise and save data
         run: python main.py
