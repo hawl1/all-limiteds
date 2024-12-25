@@ -1,11 +1,9 @@
 name: Image
 
 on:
-  push:
-    branches:
-      - '*'
+  workflow_dispatch:
   schedule:
-    - cron: '0 0 * * *' # This will trigger the workflow every day at midnight UTC
+    - cron: '0 0 * * *'
 
 jobs:
   save_image:
