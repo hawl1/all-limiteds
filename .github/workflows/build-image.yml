@@ -23,7 +23,7 @@ jobs:
         run: |
           git clone https://github.com/yoori/flare-bypasser
           cd flare-bypasser
-          docker build -t ghcr.io/${{ github.repository_owner }}/all-limiteds/flare-bypasser:latest .
+          docker build -t ghcr.io/${{ github.repository_owner }}/flare-bypasser:latest .
       
       - name: Push Docker image
-        run: docker push ghcr.io/${{ github.repository_owner }}/all-limiteds/flare-bypasser:latest
+        run: docker push ghcr.io/${{ github.repository_owner }}/flare-bypasser:latest
