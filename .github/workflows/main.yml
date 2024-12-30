@@ -19,8 +19,8 @@ jobs:
       # "cloudflare is my number one opp" -willemsteller
       - name: Run flare-bypasser
         run: |
-          docker run -d -p 20080:8080 --pull always ghcr.io/hawl1/flare-bypasser:latest
-          sleep 10 # i didnt had any better ideas, forgive me
+          docker run -d -p 20080:8080 --pull always ghcr.io/yoori/flare-bypasser:latest
+          sleep 15 # i didnt had any better ideas, forgive me
       
       - name: Get data
         run: python getjson_cfbypass.py
